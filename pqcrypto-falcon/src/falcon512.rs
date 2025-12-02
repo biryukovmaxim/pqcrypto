@@ -10,6 +10,11 @@
 //! // use pqcrypto::sign::falcon512::*;
 //! let message = vec![0, 1, 2, 3, 4, 5];
 //! let (pk, sk) = keypair();
+//!
+//!
+//!
+//!
+//!
 //! let sm = sign(&message, &sk);
 //! let verifiedmsg = open(&sm, &pk).unwrap();
 //! assert!(verifiedmsg == message);
